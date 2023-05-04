@@ -68,7 +68,7 @@ div.menum {
     
     img {
         width: 300px;
-        height: 250px;
+        height: 330px;
         object-fit: cover;
         border-radius: 3px;
         border-top: 1px solid rgb(46, 45, 45);
@@ -83,6 +83,7 @@ div.img-g {
 div.text-g {
     position: absolute;
     background-color: $secondary;
+    
     text-align: center;
     padding: 15px;
     width: 100%;
