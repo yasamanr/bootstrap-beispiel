@@ -12101,8 +12101,8 @@ div.menum {
   width: 70%;
   margin-left: 15%;
 }
-div.menum ul {
-  width: 100%;
+div.menum h4, div.menum .h4 {
+  margin-top: 1%;
 }
 
 div.umenu {
@@ -12143,6 +12143,10 @@ div.text-g {
 
 .seclast {
   margin-top: 15%;
+}
+
+.sec2 {
+  margin-top: 10%;
 }
 
 section.seclast > div:last-child {

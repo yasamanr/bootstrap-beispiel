@@ -53,8 +53,8 @@ span.the-chef {
 div.menum {
     width: 70%;
     margin-left: 15%;
-   ul  {
-    width: 100%;
+    h4 {
+        margin-top: 1%;
     }
   }
   
@@ -94,8 +94,12 @@ div.text-g {
     border-left: 1px solid rgb(46, 45, 45);
     border-right: 1px solid rgb(46, 45, 45);
 }
-.seclast {
+.seclast{
     margin-top: 15%;
+}
+
+.sec2 {
+    margin-top: 10%;
 }
 section.seclast {
     > div:last-child {
