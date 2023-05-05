@@ -12060,7 +12060,7 @@ header {
   list-style-type: none;
 }
 
-section.sec1 > div {
+section.sec1 > div, .navm {
   width: 70%;
   margin-left: 15%;
 }
@@ -12167,8 +12167,10 @@ footer {
     width: 100%;
     flex-direction: column-reverse;
   }
-  .galery figure {
+  figure {
     width: 100%;
+    -o-object-fit: fit;
+       object-fit: fit;
   }
   .chef2 {
     width: 100%;
@@ -12182,5 +12184,9 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
+  }
+  section > div.galery img {
+    width: 100%;
+    height: 800px;
   }
 }/*# sourceMappingURL=stylesheet.css.map */
