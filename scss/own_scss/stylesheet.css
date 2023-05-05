@@ -12103,8 +12103,8 @@ div.umenu p {
 }
 
 section > div.galery img {
-  width: 300px;
-  height: 330px;
+  width: 100%;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 3px;
@@ -12113,12 +12113,11 @@ section > div.galery img {
   border-right: 1px solid rgb(46, 45, 45);
 }
 
-div.img-g {
-  position: relative;
+figure {
+  width: 25%;
 }
 
-div.text-g {
-  position: absolute;
+figcaption.text-g {
   background-color: #70787e;
   text-align: center;
   padding: 15px;
@@ -12163,10 +12162,13 @@ footer {
   border-top: 1px solid white;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1266px) {
   .galery {
     width: 100%;
     flex-direction: column-reverse;
+  }
+  .galery figure {
+    width: 100%;
   }
   .chef2 {
     width: 100%;
